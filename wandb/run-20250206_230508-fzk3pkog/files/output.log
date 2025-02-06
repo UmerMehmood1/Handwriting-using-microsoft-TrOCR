@@ -1,4 +1,4 @@
-  0%|                                                                                                                                                            | 0/903 [00:00<?, ?it/s]
+  0%|▎                                                                                                                                                | 2/903 [02:44<21:05:51, 84.30s/it]
 ./all_cropped_images\dr38_17_37.jpg
 ./all_cropped_images\dr9_1_12.jpg
 ./all_cropped_images\dr4_4_3.jpg
@@ -15,3 +15,45 @@
 ./all_cropped_images\dr25_2_29.jpg
 ./all_cropped_images\dr4_5_46.jpg
 ./all_cropped_images\dr3_1_28.jpg
+./all_cropped_images\dr5_3_28.jpg
+./all_cropped_images\dr38_11_28.jpg
+./all_cropped_images\dr3_4.jpg
+./all_cropped_images\dr38_22_43.jpg
+./all_cropped_images\dr38_4_16.jpg
+./all_cropped_images\dr30_2_5.jpg
+./all_cropped_images\dr5_1_24.jpg
+./all_cropped_images\dr38_18_10.jpg
+{'loss': 10.1746, 'grad_norm': 54.96990203857422, 'learning_rate': 4.9889258028792915e-05, 'epoch': 0.01}
+./all_cropped_images\dr30_2_3.jpg
+./all_cropped_images\dr47_1_19.jpg
+./all_cropped_images\dr38_26_44.jpg
+./all_cropped_images\dr44_6_1.jpg
+./all_cropped_images\dr38_22_46.jpg
+./all_cropped_images\dr43_2_19.jpg
+./all_cropped_images\dr38_22_16.jpg
+./all_cropped_images\dr45_2_9.jpg
+./all_cropped_images\dr38_26_30.jpg
+./all_cropped_images\dr38_26_35.jpg
+./all_cropped_images\dr38_26_21.jpg
+./all_cropped_images\dr38_19_8.jpg
+./all_cropped_images\dr25_1_25.jpg
+./all_cropped_images\dr38_18_31.jpg
+./all_cropped_images\dr38_12_12.jpg
+./all_cropped_images\dr38_26_36.jpg
+{'loss': 6.9487, 'grad_norm': 51.54935836791992, 'learning_rate': 4.977851605758583e-05, 'epoch': 0.01}
+./all_cropped_images\dr38_15_21.jpg
+./all_cropped_images\dr38_1_20.jpg
+./all_cropped_images\dr33_1_22.jpg
+./all_cropped_images\dr10_1_7.jpg
+./all_cropped_images\dr38_21_24.jpg
+./all_cropped_images\dr49_1_1.jpg
+./all_cropped_images\dr4_8_17.jpg
+./all_cropped_images\dr38_23_35.jpg
+./all_cropped_images\dr45_2_5.jpg
+./all_cropped_images\dr3_1_32.jpg
+./all_cropped_images\dr42_4_21.jpg
+./all_cropped_images\dr43_4_8.jpg
+./all_cropped_images\dr47_2_11.jpg
+./all_cropped_images\dr38_8_22.jpg
+./all_cropped_images\dr4_8_2.jpg
+./all_cropped_images\dr49_1_9.jpg

@@ -2,7 +2,7 @@ import os
 import csv
 import json
 from PIL import Image
-from DataModels.AnnotatedData import AnnotatedData  # Assuming AnnotatedData is defined as in your script
+from DataModels.AnnotatedData import AnnotatedData 
 from DataModels.Region import Region
 
 def crop_and_save_regions(image_path: str, regions: list[Region], output_folder: str, base_filename: str):
