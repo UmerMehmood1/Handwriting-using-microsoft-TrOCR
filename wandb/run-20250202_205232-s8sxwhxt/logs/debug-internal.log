@@ -1,0 +1,16 @@
+{"time":"2025-02-02T20:52:32.4984587+05:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\SCS\\Downloads\\Annotated\\wandb\\run-20250202_205232-s8sxwhxt\\logs\\debug-core.log"}
+{"time":"2025-02-02T20:52:32.627697+05:00","level":"INFO","msg":"created new stream","id":"s8sxwhxt"}
+{"time":"2025-02-02T20:52:32.6282915+05:00","level":"INFO","msg":"stream: started","id":"s8sxwhxt"}
+{"time":"2025-02-02T20:52:32.6282915+05:00","level":"INFO","msg":"handler: started","stream_id":"s8sxwhxt"}
+{"time":"2025-02-02T20:52:32.6282915+05:00","level":"INFO","msg":"writer: Do: started","stream_id":"s8sxwhxt"}
+{"time":"2025-02-02T20:52:32.6282915+05:00","level":"INFO","msg":"sender: started","stream_id":"s8sxwhxt"}
+{"time":"2025-02-02T20:52:33.421188+05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-02T20:52:34.8298935+05:00","level":"INFO","msg":"stream: closing","id":"s8sxwhxt"}
+{"time":"2025-02-02T20:52:34.8305113+05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-02T20:52:34.8316337+05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-02T20:53:05.2644596+05:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-02-02T20:53:08.2099941+05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-02T20:53:09.8551908+05:00","level":"INFO","msg":"handler: closed","stream_id":"s8sxwhxt"}
+{"time":"2025-02-02T20:53:09.8557801+05:00","level":"INFO","msg":"sender: closed","stream_id":"s8sxwhxt"}
+{"time":"2025-02-02T20:53:09.8551908+05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"s8sxwhxt"}
+{"time":"2025-02-02T20:53:09.8563858+05:00","level":"INFO","msg":"stream: closed","id":"s8sxwhxt"}

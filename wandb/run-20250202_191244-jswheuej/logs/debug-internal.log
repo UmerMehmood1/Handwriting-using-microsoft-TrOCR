@@ -1,0 +1,15 @@
+{"time":"2025-02-02T19:12:44.8499122+05:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\SCS\\Downloads\\Annotated\\wandb\\run-20250202_191244-jswheuej\\logs\\debug-core.log"}
+{"time":"2025-02-02T19:12:45.3593114+05:00","level":"INFO","msg":"created new stream","id":"jswheuej"}
+{"time":"2025-02-02T19:12:45.3593114+05:00","level":"INFO","msg":"stream: started","id":"jswheuej"}
+{"time":"2025-02-02T19:12:45.3593114+05:00","level":"INFO","msg":"handler: started","stream_id":"jswheuej"}
+{"time":"2025-02-02T19:12:45.3593114+05:00","level":"INFO","msg":"sender: started","stream_id":"jswheuej"}
+{"time":"2025-02-02T19:12:45.3593114+05:00","level":"INFO","msg":"writer: Do: started","stream_id":"jswheuej"}
+{"time":"2025-02-02T19:12:45.9686564+05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-02T19:12:46.6148074+05:00","level":"INFO","msg":"stream: closing","id":"jswheuej"}
+{"time":"2025-02-02T19:12:46.6155785+05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-02T19:12:46.6161261+05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-02T19:12:49.8833286+05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-02T19:12:50.4281567+05:00","level":"INFO","msg":"handler: closed","stream_id":"jswheuej"}
+{"time":"2025-02-02T19:12:50.4287638+05:00","level":"INFO","msg":"sender: closed","stream_id":"jswheuej"}
+{"time":"2025-02-02T19:12:50.4281567+05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"jswheuej"}
+{"time":"2025-02-02T19:12:50.4287638+05:00","level":"INFO","msg":"stream: closed","id":"jswheuej"}

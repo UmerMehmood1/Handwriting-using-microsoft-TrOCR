@@ -1,0 +1,31 @@
+  0%|                                                                                                                                                          | 0/2226 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "c:\Users\SCS\Downloads\Annotated\train.py", line 182, in <module>
+    trainer.train()
+  File "C:\Users\SCS\AppData\Local\Programs\Python\Python312\Lib\site-packages\transformers\trainer.py", line 2171, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SCS\AppData\Local\Programs\Python\Python312\Lib\site-packages\transformers\trainer.py", line 2480, in _inner_training_loop
+    batch_samples, num_items_in_batch = self.get_batch_samples(epoch_iterator, num_batches)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SCS\AppData\Local\Programs\Python\Python312\Lib\site-packages\transformers\trainer.py", line 5153, in get_batch_samples
+    batch_samples += [next(epoch_iterator)]
+                      ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SCS\AppData\Local\Programs\Python\Python312\Lib\site-packages\accelerate\data_loader.py", line 552, in __iter__
+    current_batch = next(dataloader_iter)
+                    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SCS\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\utils\data\dataloader.py", line 701, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\SCS\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\utils\data\dataloader.py", line 757, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SCS\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "c:\Users\SCS\Downloads\Annotated\train.py", line 53, in __getitem__
+    image = Image.open(self.root_dir + file_name).convert("RGB")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SCS\AppData\Roaming\Python\Python312\site-packages\PIL\Image.py", line 3469, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\SCS\\Downloads\\Annotated\\cropped_images\\dr36_4_12.jpg'

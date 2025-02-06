@@ -1,0 +1,47 @@
+  0%|                                                                                                                                                                            | 0/2955 [00:00<?, ?it/s]Traceback (most recent call last):
+./all_cropped_images\dr4_1_20.jpg
+./all_cropped_images\dr69_28_9.jpg
+./all_cropped_images\dr102_1_5.jpg
+./all_cropped_images\dr117_2_26.jpg
+./all_cropped_images\dr87_1_6.jpg
+./all_cropped_images\dr114_1_56.jpg
+./all_cropped_images\dr38_14_38.jpg
+./all_cropped_images\dr63_1_14.jpg
+./all_cropped_images\dr66_5_13.jpg
+./all_cropped_images\dr87_7_42.jpg
+./all_cropped_images\dr127_1_72.jpg
+./all_cropped_images\dr87_7_17.jpg
+./all_cropped_images\dr77_3_11.jpg
+./all_cropped_images\dr69_2_27.jpg
+./all_cropped_images\dr35_1_16.jpg
+./all_cropped_images\dr30_2_1.jpg
+  File "c:\Users\SCS\Downloads\Annotated\train.py", line 183, in <module>
+    trainer.train()
+  File "C:\Users\SCS\AppData\Local\Programs\Python\Python312\Lib\site-packages\transformers\trainer.py", line 2171, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SCS\AppData\Local\Programs\Python\Python312\Lib\site-packages\transformers\trainer.py", line 2531, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SCS\AppData\Local\Programs\Python\Python312\Lib\site-packages\transformers\trainer.py", line 3675, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SCS\AppData\Local\Programs\Python\Python312\Lib\site-packages\transformers\trainer.py", line 3731, in compute_loss
+    outputs = model(**inputs)
+              ^^^^^^^^^^^^^^^
+  File "C:\Users\SCS\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SCS\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SCS\AppData\Local\Programs\Python\Python312\Lib\site-packages\transformers\models\vision_encoder_decoder\modeling_vision_encoder_decoder.py", line 592, in forward
+    encoder_outputs = self.encoder(
+                      ^^^^^^^^^^^^^
+  File "C:\Users\SCS\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\SCS\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ViTModel.forward() got an unexpected keyword argument 'num_items_in_batch'

@@ -1,0 +1,913 @@
+{
+    "_via_settings": {
+        "ui": {
+            "annotation_editor_height": 25,
+            "annotation_editor_fontsize": 0.8,
+            "leftsidebar_width": 18,
+            "image_grid": {
+                "img_height": 80,
+                "rshape_fill": "none",
+                "rshape_fill_opacity": 0.3,
+                "rshape_stroke": "yellow",
+                "rshape_stroke_width": 2,
+                "show_region_shape": true,
+                "show_image_policy": "all"
+            },
+            "image": {
+                "region_label": "__via_region_id__",
+                "region_color": "Medicine Name",
+                "region_label_font": "10px Sans",
+                "on_image_annotation_editor_placement": "NEAR_REGION"
+            }
+        },
+        "core": {
+            "buffer_size": 18,
+            "filepath": {},
+            "default_filepath": ""
+        },
+        "project": {
+            "name": "dr1_1"
+        }
+    },
+    "_via_img_metadata": {
+        "dr1_1.jpg1818960": {
+            "filename": "dr1_1.jpg",
+            "size": 1818960,
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 418,
+                        "y": 486,
+                        "width": 373,
+                        "height": 86
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "",
+                        "Text": "",
+                        "Personal Information": "Khalid sb\n",
+                        "Numeric Data": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 382,
+                        "y": 603,
+                        "width": 260,
+                        "height": 113
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "",
+                        "Text": "",
+                        "Personal Information": "Multan\n",
+                        "Numeric Data": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1543,
+                        "y": 759,
+                        "width": 101,
+                        "height": 70
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "Urdu/english",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "",
+                        "Text": "",
+                        "Personal Information": "",
+                        "Numeric Data": "98\n"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1823,
+                        "y": 751,
+                        "width": 96,
+                        "height": 65
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "",
+                        "Text": "",
+                        "Personal Information": "",
+                        "Numeric Data": "81\n"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2146,
+                        "y": 761,
+                        "width": 155,
+                        "height": 122
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "",
+                        "Text": "",
+                        "Personal Information": "",
+                        "Numeric Data": "138/90\n"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1248,
+                        "y": 1023,
+                        "width": 194,
+                        "height": 274
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "",
+                        "Text": "Cap\n",
+                        "Personal Information": "",
+                        "Numeric Data": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1471,
+                        "y": 1033,
+                        "width": 267,
+                        "height": 186
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "Losec\n",
+                        "Text": "",
+                        "Personal Information": "",
+                        "Numeric Data": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1688,
+                        "y": 1245,
+                        "width": 98,
+                        "height": 80
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "",
+                        "Text": "",
+                        "Personal Information": "",
+                        "Numeric Data": "20\n"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1784,
+                        "y": 1258,
+                        "width": 85,
+                        "height": 83
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "",
+                        "Text": "mg\n",
+                        "Personal Information": "",
+                        "Numeric Data": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1411,
+                        "y": 1385,
+                        "width": 129,
+                        "height": 215
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "",
+                        "Text": "Cap\n",
+                        "Personal Information": "",
+                        "Numeric Data": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1551,
+                        "y": 1388,
+                        "width": 313,
+                        "height": 129
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "Evian\n",
+                        "Text": "",
+                        "Personal Information": "",
+                        "Numeric Data": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1781,
+                        "y": 1546,
+                        "width": 75,
+                        "height": 91
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "",
+                        "Text": "",
+                        "Personal Information": "",
+                        "Numeric Data": "4\n"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1849,
+                        "y": 1556,
+                        "width": 111,
+                        "height": 80
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "",
+                        "Text": "mg\n",
+                        "Personal Information": "",
+                        "Numeric Data": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1548,
+                        "y": 1685,
+                        "width": 155,
+                        "height": 142
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "",
+                        "Text": "Tab\n",
+                        "Personal Information": "",
+                        "Numeric Data": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1706,
+                        "y": 1685,
+                        "width": 298,
+                        "height": 150
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "librax\n",
+                        "Text": "",
+                        "Personal Information": "",
+                        "Numeric Data": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1698,
+                        "y": 1828,
+                        "width": 114,
+                        "height": 91
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "",
+                        "Text": "",
+                        "Personal Information": "",
+                        "Numeric Data": "20\n"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1691,
+                        "y": 1952,
+                        "width": 668,
+                        "height": 166
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "Lagita Advance\n",
+                        "Text": "",
+                        "Personal Information": "",
+                        "Numeric Data": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1833,
+                        "y": 2102,
+                        "width": 249,
+                        "height": 114
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "",
+                        "Text": "",
+                        "Personal Information": "",
+                        "Numeric Data": "1+1+1\n"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1484,
+                        "y": 1817,
+                        "width": 179,
+                        "height": 98
+                    },
+                    "region_attributes": {
+                        "Language": "Urdu",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "",
+                        "Text": "رات\n",
+                        "Personal Information": "",
+                        "Numeric Data": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1385,
+                        "y": 1779,
+                        "width": 65,
+                        "height": 145
+                    },
+                    "region_attributes": {
+                        "Language": "Urdu",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "",
+                        "Text": "کو\n",
+                        "Personal Information": "",
+                        "Numeric Data": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1253,
+                        "y": 1740,
+                        "width": 122,
+                        "height": 205
+                    },
+                    "region_attributes": {
+                        "Language": "Urdu",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "",
+                        "Text": "لیں\n",
+                        "Personal Information": "",
+                        "Numeric Data": ""
+                    }
+                }
+            ],
+            "file_attributes": {
+                "caption": "",
+                "public_domain": "no",
+                "image_url": ""
+            }
+        },
+        "dr1_2.jpg2156077": {
+            "filename": "dr1_2.jpg",
+            "size": 2156077,
+            "regions": [
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 402,
+                        "y": 483,
+                        "width": 344,
+                        "height": 91
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "",
+                        "Text": "",
+                        "Personal Information": "M Yasmen\n",
+                        "Numeric Data": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 507,
+                        "y": 617,
+                        "width": 188,
+                        "height": 95
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "",
+                        "Text": "",
+                        "Personal Information": "Multan\n",
+                        "Numeric Data": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 2130,
+                        "y": 641,
+                        "width": 87,
+                        "height": 67
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "",
+                        "Text": "",
+                        "Personal Information": "",
+                        "Numeric Data": "55\n"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1435,
+                        "y": 1007,
+                        "width": 137,
+                        "height": 127
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "",
+                        "Text": "Tab\n",
+                        "Personal Information": "",
+                        "Numeric Data": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1592,
+                        "y": 995,
+                        "width": 332,
+                        "height": 124
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "Eto Od",
+                        "Text": "",
+                        "Personal Information": "",
+                        "Numeric Data": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1838,
+                        "y": 1119,
+                        "width": 132,
+                        "height": 69
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "Urdu/english",
+                        "Dignostic": "not_defined",
+                        "Symptoms": "",
+                        "Medicine Name": "Tab/Syrup/Injection",
+                        "Text": "",
+                        "Personal Information": "",
+                        "Numeric Data": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1970,
+                        "y": 1103,
+                        "width": 108,
+                        "height": 88
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "",
+                        "Text": "mg\n",
+                        "Personal Information": "",
+                        "Numeric Data": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1591,
+                        "y": 1280,
+                        "width": 152,
+                        "height": 224
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "",
+                        "Text": "Cap\n",
+                        "Personal Information": "",
+                        "Numeric Data": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1726,
+                        "y": 1259,
+                        "width": 239,
+                        "height": 199
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "Teph\n",
+                        "Text": "",
+                        "Personal Information": "",
+                        "Numeric Data": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1930,
+                        "y": 1410,
+                        "width": 54,
+                        "height": 105
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "",
+                        "Text": "",
+                        "Personal Information": "",
+                        "Numeric Data": "4\n"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1980,
+                        "y": 1440,
+                        "width": 77,
+                        "height": 98
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "",
+                        "Text": "mg\n",
+                        "Personal Information": "",
+                        "Numeric Data": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1707,
+                        "y": 1589,
+                        "width": 146,
+                        "height": 134
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "",
+                        "Text": "Tab\n",
+                        "Personal Information": "",
+                        "Numeric Data": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1876,
+                        "y": 1578,
+                        "width": 299,
+                        "height": 162
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "librax\n",
+                        "Text": "",
+                        "Personal Information": "",
+                        "Numeric Data": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1978,
+                        "y": 1723,
+                        "width": 148,
+                        "height": 131
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "",
+                        "Text": "",
+                        "Personal Information": "",
+                        "Numeric Data": "1+1\n"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 479,
+                        "y": 1419,
+                        "width": 115,
+                        "height": 350
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "",
+                        "Text": "Cap\n",
+                        "Personal Information": "",
+                        "Numeric Data": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 607,
+                        "y": 1509,
+                        "width": 698,
+                        "height": 166
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "lagita Advance\n",
+                        "Text": "",
+                        "Personal Information": "",
+                        "Numeric Data": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 883,
+                        "y": 1643,
+                        "width": 119,
+                        "height": 119
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "",
+                        "Text": "",
+                        "Personal Information": "",
+                        "Numeric Data": "1+1\n"
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 319,
+                        "y": 1925,
+                        "width": 158,
+                        "height": 161
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "",
+                        "Text": "Tab\n",
+                        "Personal Information": "",
+                        "Numeric Data": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 486,
+                        "y": 1881,
+                        "width": 451,
+                        "height": 177
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "Laxoberon\n",
+                        "Text": "",
+                        "Personal Information": "",
+                        "Numeric Data": ""
+                    }
+                },
+                {
+                    "shape_attributes": {
+                        "name": "rect",
+                        "x": 1651,
+                        "y": 752,
+                        "width": 69,
+                        "height": 67
+                    },
+                    "region_attributes": {
+                        "Language": "English",
+                        "Dosage": "",
+                        "Dignostic": "",
+                        "Symptoms": "",
+                        "Medicine Name": "",
+                        "Text": "",
+                        "Personal Information": "",
+                        "Numeric Data": "81\n"
+                    }
+                }
+            ],
+            "file_attributes": {
+                "caption": "",
+                "public_domain": "no",
+                "image_url": ""
+            }
+        }
+    },
+    "_via_attributes": {
+        "region": {
+            "Language": {
+                "type": "dropdown",
+                "description": "Language",
+                "options": {
+                    "Urdu": "Urdu",
+                    "English": "English"
+                },
+                "default_options": {
+                    "unknown": true
+                }
+            },
+            "Dosage": {
+                "type": "text",
+                "description": "Suggestions",
+                "default_value": "Urdu/english"
+            },
+            "Dignostic": {
+                "type": "text",
+                "description": "Name of the object",
+                "default_value": "not_defined"
+            },
+            "Symptoms": {
+                "type": "text",
+                "description": "Symptoms",
+                "default_value": ""
+            },
+            "Medicine Name": {
+                "type": "text",
+                "description": "Med Name",
+                "default_value": "Tab/Syrup/Injection"
+            },
+            "Text": {
+                "type": "text",
+                "description": "",
+                "default_value": ""
+            },
+            "Personal Information": {
+                "type": "text",
+                "description": "",
+                "default_value": ""
+            },
+            "Numeric Data": {
+                "type": "text",
+                "description": "",
+                "default_value": ""
+            }
+        },
+        "file": {
+            "caption": {
+                "type": "text",
+                "description": "",
+                "default_value": ""
+            },
+            "public_domain": {
+                "type": "radio",
+                "description": "",
+                "options": {
+                    "yes": "Yes",
+                    "no": "No"
+                },
+                "default_options": {
+                    "no": true
+                }
+            },
+            "image_url": {
+                "type": "text",
+                "description": "",
+                "default_value": ""
+            }
+        }
+    },
+    "_via_data_format_version": "2.0.10",
+    "_via_image_id_list": [
+        "dr1_1.jpg1818960",
+        "dr1_2.jpg2156077"
+    ]
+}

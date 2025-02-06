@@ -1,0 +1,15 @@
+{"time":"2025-02-02T20:56:08.2817554+05:00","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"C:\\Users\\SCS\\Downloads\\Annotated\\wandb\\run-20250202_205607-unhiydj8\\logs\\debug-core.log"}
+{"time":"2025-02-02T20:56:08.4206125+05:00","level":"INFO","msg":"created new stream","id":"unhiydj8"}
+{"time":"2025-02-02T20:56:08.4206125+05:00","level":"INFO","msg":"stream: started","id":"unhiydj8"}
+{"time":"2025-02-02T20:56:08.4206125+05:00","level":"INFO","msg":"writer: Do: started","stream_id":"unhiydj8"}
+{"time":"2025-02-02T20:56:08.421247+05:00","level":"INFO","msg":"sender: started","stream_id":"unhiydj8"}
+{"time":"2025-02-02T20:56:08.421247+05:00","level":"INFO","msg":"handler: started","stream_id":"unhiydj8"}
+{"time":"2025-02-02T20:56:09.1103153+05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-02T20:56:10.6665424+05:00","level":"INFO","msg":"stream: closing","id":"unhiydj8"}
+{"time":"2025-02-02T20:56:10.6665424+05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-02T20:56:10.6687602+05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-02T20:56:12.0250818+05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-02T20:56:12.637889+05:00","level":"INFO","msg":"handler: closed","stream_id":"unhiydj8"}
+{"time":"2025-02-02T20:56:12.637889+05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"unhiydj8"}
+{"time":"2025-02-02T20:56:12.637889+05:00","level":"INFO","msg":"sender: closed","stream_id":"unhiydj8"}
+{"time":"2025-02-02T20:56:12.6384438+05:00","level":"INFO","msg":"stream: closed","id":"unhiydj8"}
