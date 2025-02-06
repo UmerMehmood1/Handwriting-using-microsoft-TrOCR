@@ -112,7 +112,8 @@ def clean_second_column(overall_output_csv, output_file):
         for row in reader:
             if len(row) > 1:  # Ensure the second column exists
                 row[1] = row[1].replace(',', '').replace('"', '').replace('\n', ' ')
-            writer.writerow(row)
+            if len(row[1].strip()) > 0:
+                writer.writerow(row)
     os.remove(overall_output_csv)
 
 # Usage Example
