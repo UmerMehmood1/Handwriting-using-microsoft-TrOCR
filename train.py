@@ -20,6 +20,8 @@ We use `TrOCRProcessor` to prepare the data for the model. `TrOCRProcessor` is a
 import torch
 from torch.utils.data import Dataset
 from PIL import Image
+import os
+
 
 class IAMDataset(Dataset):
     def __init__(self, root_dir, df, processor, max_target_length=128):
@@ -37,7 +39,7 @@ class IAMDataset(Dataset):
         text = self.df['Text'][idx]
         print(file_name)
         # prepare image (i.e. resize + normalize)
-        image = Image.open(self.root_dir + file_name).convert("RGB")
+        image = Image.open(os.path.join(self.root_dir, file_name)).convert("RGB")
         pixel_values = self.processor(image, return_tensors="pt").pixel_values
         # add labels (input_ids) by encoding the text
         labels = self.processor.tokenizer(text,
@@ -54,10 +56,10 @@ class IAMDataset(Dataset):
 from transformers import TrOCRProcessor
 
 processor = TrOCRProcessor.from_pretrained("microsoft/trocr-base-handwritten")
-train_dataset = IAMDataset(root_dir='./',
+train_dataset = IAMDataset(root_dir=os.getcwd(),
                            df=train_df,
                            processor=processor)
-eval_dataset = IAMDataset(root_dir='./',
+eval_dataset = IAMDataset(root_dir=os.getcwd(),
                            df=test_df,
                            processor=processor)
 
@@ -72,7 +74,7 @@ for k,v in encoding.items():
 
 """We can also check the original image and decode the labels:"""
 
-image = Image.open(train_dataset.root_dir + train_df['Cropped Image Path'][0]).convert("RGB")
+image = Image.open(os.path.join(train_dataset.root_dir, train_df['Cropped Image Path'][0])).convert("RGB")
 image.show()
 
 labels = encoding['labels']
