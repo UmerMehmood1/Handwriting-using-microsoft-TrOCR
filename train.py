@@ -1,21 +1,7 @@
 # -*- coding: utf-8 -*-
-# !pip install -q transformers
-
-# !pip install -q datasets jiwer
-
-"""## Prepare data
-
-We first download the data. Here, I'm just using the IAM test set, as this was released by the TrOCR authors in the unilm repository. It can be downloaded from [this page](https://github.com/microsoft/unilm/tree/master/trocr).
-
-Let's make a [regular PyTorch dataset](https://pytorch.org/tutorials/beginner/basics/data_tutorial.html). We first create a Pandas dataframe with 2 columns. Each row consists of the file name of an image, and the corresponding text.
-"""
-
 import pandas as pd
-
 df = pd.read_csv('./all_cropped_data_cleaned.csv')
 df.head()
-
-"""We split up the data into training + testing, using sklearn's `train_test_split` function."""
 
 from sklearn.model_selection import train_test_split
 
@@ -170,17 +156,18 @@ Note that evaluation takes quite a long time, as we're using beam search for dec
 
 from transformers import default_data_collator
 
-# instantiate trainer
-trainer = Seq2SeqTrainer(
-    model=model,
-    tokenizer=processor.feature_extractor,
-    args=training_args,
-    compute_metrics=compute_metrics,
-    train_dataset=train_dataset,
-    eval_dataset=eval_dataset,
-    data_collator=default_data_collator,
-)
-trainer.train()
+def main():
+    # instantiate trainer
+    trainer = Seq2SeqTrainer(
+        model=model,
+        tokenizer=processor.feature_extractor,
+        args=training_args,
+        compute_metrics=compute_metrics,
+        train_dataset=train_dataset,
+        eval_dataset=eval_dataset,
+        data_collator=default_data_collator,
+    )
+    trainer.train()
 
 """## Inference
 
